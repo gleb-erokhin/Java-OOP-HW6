@@ -2,8 +2,8 @@ package OpenClosePrinciple;
 
 import java.util.List;
 
-public class SumCalculator {
-    public double sum(List<? extends Number> numbers) {
+public class SumCalculator implements MultSumClass{
+    public double operation(List<? extends Number> numbers) {
         double res = 0.0;
         for (Number n : numbers) {
             res += n.doubleValue();
