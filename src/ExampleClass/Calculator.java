@@ -1,4 +1,4 @@
-package oldClass;
+package ExampleClass;
 
 import java.util.List;
 
